@@ -16,6 +16,16 @@ Full-stack Kanban board with auth (Better Auth / Neon Auth), Server Actions, and
 
 ---
 
+### [Zync](https://zync-app.netlify.app) · [GitHub](https://github.com/Abdullah-Nass)
+
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white) ![TanStack Router](https://img.shields.io/badge/TanStack_Router-FF4154?logo=reactquery&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-22-339933?logo=nodedotjs&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Neon-4169E1?logo=postgresql&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-httpOnly_Cookies-000000?logo=jsonwebtokens&logoColor=white) ![Cloudinary](https://img.shields.io/badge/Cloudinary-Media-3448C5?logo=cloudinary&logoColor=white)
+
+![Zync screenshot](./screenshots/zync.png)
+
+Full-stack social media platform — follow people, post updates, like content, and explore profiles. JWT auth with httpOnly cookies written from scratch (no auth library); raw SQL with `pg` (no ORM). Optimistic UI for likes and follows updates all relevant TanStack Query caches simultaneously with rollback on failure. Infinite scrolling via `useInfiniteQuery` + `IntersectionObserver`; 300ms debounced search; direct Cloudinary uploads from the browser. React client and Express API deployed independently to Netlify and Railway.
+
+---
+
 ### [MoviesBase](https://moviesbase-a.netlify.app) · [GitHub](https://github.com/Abdullah-Nass/moviesbase)
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white) ![TMDB](https://img.shields.io/badge/TMDB_API-01B4E4?logo=themoviedatabase&logoColor=white) ![next-intl](https://img.shields.io/badge/next--intl-i18n-black?logo=next.js)
