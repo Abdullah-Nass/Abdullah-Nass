@@ -81,7 +81,7 @@ A task management SPA focused on authentication, internationalization, and moder
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-v7-CA4245?logo=reactrouter&logoColor=white) ![Axios](https://img.shields.io/badge/Axios-HTTP-5A29E4?logo=axios&logoColor=white)
 
-![MyStore screenshot](./screenshots/mystore.png)
+![MyStore screenshot](./screenshots/my-store.png)
 
 An e-commerce SPA focused on client-side state management and a practical shopping workflow.
 
