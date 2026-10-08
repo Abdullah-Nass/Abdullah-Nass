@@ -8,19 +8,6 @@ I enjoy working on complex frontend problems, building polished user experiences
 
 ## 🚀 Featured Projects
 
-### [Waiter](https://waiter-jm3w.onrender.com/en/login) · [GitHub](https://github.com/Abdullah-Nass/waiter) · [▶ Demo](https://www.youtube.com/watch?v=Y7nLLQ_kL0s)
-
-![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-Real--Time-010101?logo=socketdotio&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/Neon_Postgres-PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-7-2D3748?logo=prisma&logoColor=white) ![Better Auth](https://img.shields.io/badge/Better_Auth-Auth-black) ![Zustand](https://img.shields.io/badge/Zustand-State-764ABC) ![next-intl](https://img.shields.io/badge/next--intl-i18n-black?logo=next.js)
-
-A real-time restaurant ordering system built with Next.js 15 App Router and a custom Node.js server with Socket.io.
-
-- Custom Node.js server with **Socket.io** pushes new orders to the kitchen board instantly — no polling
-- Role-based access control (**Waiter / Kitchen / Admin**) enforced at the layout level; cart state managed with **Zustand**; `Order` + `OrderItem` records created atomically via a single **Server Action**
-- **30+ automated tests** with Vitest and React Testing Library covering Zustand store actions (`addItem`, `clearCart`, totals) and bilingual, role-aware UI components with mocked hooks
-- Bilingual **Arabic/English** UI with RTL support via **next-intl**; bilingual data modelled at the DB level (`nameAr`/`nameEn`, `descAr`/`descEn`); live status toast notifications and an admin page for menu and staff management; all interactive elements carry `aria-label` attributes
-
----
-
 ### [Job Tracker](https://jobtracker-a.netlify.app/) · [GitHub](https://github.com/Abdullah-Nass/jobtracker)
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js) ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-7-2D3748?logo=prisma&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/Neon_Postgres-PostgreSQL-4169E1?logo=postgresql&logoColor=white)
@@ -35,6 +22,21 @@ A full-stack Kanban application for managing job applications.
 - **Server Actions** and REST Route Handlers
 - User-scoped database queries designed to prevent **IDOR vulnerabilities**
 - PostgreSQL with **Prisma** and Neon
+
+---
+
+### [Waiter](https://waiter-jm3w.onrender.com/en/login) · [GitHub](https://github.com/Abdullah-Nass/waiter) · [▶ Demo](https://www.youtube.com/watch?v=Y7nLLQ_kL0s)
+
+![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-Real--Time-010101?logo=socketdotio&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/Neon_Postgres-PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-7-2D3748?logo=prisma&logoColor=white) ![Better Auth](https://img.shields.io/badge/Better_Auth-Auth-black) ![Zustand](https://img.shields.io/badge/Zustand-State-764ABC) ![next-intl](https://img.shields.io/badge/next--intl-i18n-black?logo=next.js)
+
+A real-time, bilingual restaurant ordering system for waiters, kitchen staff, and admins.
+
+- Custom **Node.js + Socket.io** server pushes new orders to the kitchen board instantly — no polling
+- Kitchen status changes notify the waiter as a **live toast** anywhere in the app
+- Role-based access control (**Waiter / Kitchen / Admin**) enforced at the layout level
+- Cart state managed with **Zustand**; `Order` + `OrderItem` records created atomically via a single **Server Action**
+- **30+ tests** with Vitest and React Testing Library covering store actions and role-aware UI components
+- Full **Arabic/English** i18n with **next-intl**, automatic RTL/LTR switching, and bilingual data at the DB level (`nameAr`/`nameEn`)
 
 ---
 
