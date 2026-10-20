@@ -2,7 +2,7 @@
 
 **Junior Developer** focused on building scalable, production-quality web applications with **React, Next.js, and TypeScript**.
 
-I enjoy working on complex frontend problems, building polished user experiences, and developing **internationalized applications with solid i18n/l10n architecture**.
+I enjoy working on complex problems, building polished user experiences, and developing **internationalized applications with solid i18n/l10n architecture**.
 
 ---
 
