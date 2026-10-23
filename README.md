@@ -42,7 +42,7 @@ A full-stack Kanban application for managing job applications.
 
 ---
 
-### [Zync](https://zync-app.netlify.app/) · [GitHub](https://github.com/Abdullah-Nass)
+### [Zync](https://zync-app.netlify.app/) · [GitHub](https://github.com/Abdullah-Nass/zync)
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white) ![TanStack Router](https://img.shields.io/badge/TanStack_Router-FF4154?logo=reactquery&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-22-339933?logo=nodedotjs&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Neon-4169E1?logo=postgresql&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-httpOnly_Cookies-000000?logo=jsonwebtokens&logoColor=white) ![Cloudinary](https://img.shields.io/badge/Cloudinary-Media-3448C5?logo=cloudinary&logoColor=white)
 
